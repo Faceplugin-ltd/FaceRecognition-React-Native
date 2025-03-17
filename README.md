@@ -42,7 +42,7 @@ Explore `face recognition SDK` `React Native Plugin` from [Faceplugin](https://f
 
 ## Install License
   
-- The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-React-Native/blob/main/example/src/MainPage.tsx#L23-L43
+- The code below shows how to use the license: https://github.com/Faceplugin-ltd/FaceRecognition-React-Native/blob/0bd448a0b9c5128acd7dfc964afa144d34bd5ccf/example/src/MainPage.tsx#L23-L38
 
 Please contact us to get the license.
 
