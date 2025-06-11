@@ -51,6 +51,7 @@ You can refer to React Native official document to setup enviroment.</br>
 ```bash
 yarn
 cd example
+yarn
 yarn android
 ```
 ### 3. How to run the iOS App
