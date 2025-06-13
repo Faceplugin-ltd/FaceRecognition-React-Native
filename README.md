@@ -61,8 +61,10 @@ cd example
 yarn
 cd ios
 pod install
+cd ..
+npx react-native run-ios
 ```
-And then, open the `FaceRecognitionReactNative.xcworkspace` in `Xcode` and run.
+Or open the `FaceRecognitionReactNative.xcworkspace` in `Xcode` and run.
 
 ## List of our Products
 
