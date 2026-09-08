@@ -1,0 +1,11 @@
+// Consumes FacePlugin Face Recognition AAR (same as FaceRecognition-Android-App).
+// Drop facerecognitionsdk.aar here from the Android Drive folder / App export.
+def aar = file("facerecognitionsdk.aar")
+if (!aar.exists()) {
+    throw new GradleException(
+        "Missing example/android/libfacesdk/facerecognitionsdk.aar.\n" +
+        "Copy it from FaceRecognition-Android-App/libfacesdk/ or the Drive Android pack."
+    )
+}
+configurations.maybeCreate("default")
+artifacts.add("default", aar)

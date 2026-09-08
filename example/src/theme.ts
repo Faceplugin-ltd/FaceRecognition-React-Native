@@ -1,0 +1,25 @@
+/** Match FaceRecognitionSDK-Android-App colors.xml */
+export const colors = {
+  bg: '#1C1B1F',
+  surface: '#252525',
+  surfaceAlt: '#1C2B42',
+  text: '#E6E1E5',
+  muted: '#938F99',
+  accent: '#D0BCFF',
+  accentDim: '#4F378B',
+  danger: '#FF6B6B',
+  overlay: 'rgba(28, 27, 31, 0.85)',
+  stroke: '#49454F',
+  /** Home tiles — rounded_edge pink_700 */
+  tile: '#63317B',
+  tileTouch: '#BF41E3',
+  blackBg: '#303033',
+  background1: '#252525',
+  statusError: '#B3261E',
+  statusOk: '#388E3C',
+  statusInfo: '#1976D2',
+  livenessReal: '#2EE6A6',
+  livenessSpoof: '#FF6B6B',
+  border: '#49454F',
+  onPrimary: '#FFFFFF',
+};
