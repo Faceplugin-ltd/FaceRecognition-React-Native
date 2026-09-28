@@ -15,8 +15,8 @@ type Props = {
 export default function FacePluginLogo({ size = 120, style, onPress }: Props) {
   const image = (
     <Image
-      source={require('../assets/ic_faceplugin.png')}
-      style={{ width: size, height: size }}
+      source={require('../assets/fp_logo.png')}
+      style={{ width: size * 2.2, height: size * 0.44 }}
       resizeMode="contain"
       accessibilityLabel="FacePlugin"
     />
